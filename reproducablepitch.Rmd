@@ -1,0 +1,36 @@
+---
+title: "reproducable pitch"
+author: "Nishitha Chowdary"
+date: "26/07/2020"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Shiny Application
+
+#### To analyze the code you can go to https://github.com/NVS143/shiny/tree/master/newapp
+#### To see the shiny app you can go to https://bidalika-20.shinyapps.io/newapp/
+
+## What is the function of this application ?
+
+This application is ment to help you in 
+visualisation of the ploing of the random data.
+
+- It allows you to visualise the ploting of random 
+number of points within a specified x and y range .
+- You can use the slider to select the value of minimum 
+and maximum of X Axis and Y Axis.
+- And then you can check the check boxes according 
+to your wish if you want to see or hide the x label 
+or y label or the main title of the graph.
+
+## R Output
+The R code that is necessary before running any shiny application.
+```{r echo=TRUE}
+library(shiny)
+```
